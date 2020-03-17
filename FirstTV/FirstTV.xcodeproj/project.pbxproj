@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B210B521C4B9AAC00F471B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B210B511C4B9AAC00F471B4 /* main.m */; };
+		3B210B551C4B9AAC00F471B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B210B541C4B9AAC00F471B4 /* AppDelegate.m */; };
+		3B210B581C4B9AAC00F471B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B210B571C4B9AAC00F471B4 /* ViewController.m */; };
+		3B210B5B1C4B9AAC00F471B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B210B591C4B9AAC00F471B4 /* Main.storyboard */; };
+		3B210B5D1C4B9AAD00F471B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B210B5C1C4B9AAD00F471B4 /* Assets.xcassets */; };
+		3B210B681C4B9AAD00F471B4 /* FirstTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B210B671C4B9AAD00F471B4 /* FirstTVTests.m */; };
+		3B210B731C4B9AAD00F471B4 /* FirstTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B210B721C4B9AAD00F471B4 /* FirstTVUITests.m */; };
+		CA4928E9A1FD9397A4CFAC60 /* libPods-FirstTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C367DA05C8B796C6DDB270E3 /* libPods-FirstTV.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B210B641C4B9AAD00F471B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B210B451C4B9AAC00F471B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B210B4C1C4B9AAC00F471B4;
+			remoteInfo = FirstTV;
+		};
+		3B210B6F1C4B9AAD00F471B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B210B451C4B9AAC00F471B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B210B4C1C4B9AAC00F471B4;
+			remoteInfo = FirstTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B210B4D1C4B9AAC00F471B4 /* FirstTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B210B511C4B9AAC00F471B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B210B531C4B9AAC00F471B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B210B541C4B9AAC00F471B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B210B561C4B9AAC00F471B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B210B571C4B9AAC00F471B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B210B5A1C4B9AAC00F471B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B210B5C1C4B9AAD00F471B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B210B5E1C4B9AAD00F471B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B210B631C4B9AAD00F471B4 /* FirstTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B210B671C4B9AAD00F471B4 /* FirstTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTVTests.m; sourceTree = "<group>"; };
+		3B210B691C4B9AAD00F471B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B210B6E1C4B9AAD00F471B4 /* FirstTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B210B721C4B9AAD00F471B4 /* FirstTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstTVUITests.m; sourceTree = "<group>"; };
+		3B210B741C4B9AAD00F471B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DEA7A37B1E0A86A03E8860C /* Pods-FirstTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstTV/Pods-FirstTV.debug.xcconfig"; sourceTree = "<group>"; };
+		9B0B8C4A3735771215EC0952 /* Pods-FirstTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirstTV/Pods-FirstTV.release.xcconfig"; sourceTree = "<group>"; };
+		C367DA05C8B796C6DDB270E3 /* libPods-FirstTV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstTV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B210B4A1C4B9AAC00F471B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4928E9A1FD9397A4CFAC60 /* libPods-FirstTV.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B210B601C4B9AAD00F471B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B210B6B1C4B9AAD00F471B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B210B441C4B9AAC00F471B4 = {
+			isa = PBXGroup;
+			children = (
+				3B210B4F1C4B9AAC00F471B4 /* FirstTV */,
+				3B210B661C4B9AAD00F471B4 /* FirstTVTests */,
+				3B210B711C4B9AAD00F471B4 /* FirstTVUITests */,
+				3B210B4E1C4B9AAC00F471B4 /* Products */,
+				A8C83F10B3CA833626F0E512 /* Pods */,
+				60EDF6EB8441F71E7E813FEC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B210B4E1C4B9AAC00F471B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B210B4D1C4B9AAC00F471B4 /* FirstTV.app */,
+				3B210B631C4B9AAD00F471B4 /* FirstTVTests.xctest */,
+				3B210B6E1C4B9AAD00F471B4 /* FirstTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B210B4F1C4B9AAC00F471B4 /* FirstTV */ = {
+			isa = PBXGroup;
+			children = (
+				3B210B531C4B9AAC00F471B4 /* AppDelegate.h */,
+				3B210B541C4B9AAC00F471B4 /* AppDelegate.m */,
+				3B210B561C4B9AAC00F471B4 /* ViewController.h */,
+				3B210B571C4B9AAC00F471B4 /* ViewController.m */,
+				3B210B591C4B9AAC00F471B4 /* Main.storyboard */,
+				3B210B5C1C4B9AAD00F471B4 /* Assets.xcassets */,
+				3B210B5E1C4B9AAD00F471B4 /* Info.plist */,
+				3B210B501C4B9AAC00F471B4 /* Supporting Files */,
+			);
+			path = FirstTV;
+			sourceTree = "<group>";
+		};
+		3B210B501C4B9AAC00F471B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B210B511C4B9AAC00F471B4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B210B661C4B9AAD00F471B4 /* FirstTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B210B671C4B9AAD00F471B4 /* FirstTVTests.m */,
+				3B210B691C4B9AAD00F471B4 /* Info.plist */,
+			);
+			path = FirstTVTests;
+			sourceTree = "<group>";
+		};
+		3B210B711C4B9AAD00F471B4 /* FirstTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B210B721C4B9AAD00F471B4 /* FirstTVUITests.m */,
+				3B210B741C4B9AAD00F471B4 /* Info.plist */,
+			);
+			path = FirstTVUITests;
+			sourceTree = "<group>";
+		};
+		60EDF6EB8441F71E7E813FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C367DA05C8B796C6DDB270E3 /* libPods-FirstTV.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8C83F10B3CA833626F0E512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DEA7A37B1E0A86A03E8860C /* Pods-FirstTV.debug.xcconfig */,
+				9B0B8C4A3735771215EC0952 /* Pods-FirstTV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B210B4C1C4B9AAC00F471B4 /* FirstTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B210B771C4B9AAD00F471B4 /* Build configuration list for PBXNativeTarget "FirstTV" */;
+			buildPhases = (
+				5F66293AFCCA41FADB474DE0 /* Check Pods Manifest.lock */,
+				3B210B491C4B9AAC00F471B4 /* Sources */,
+				3B210B4A1C4B9AAC00F471B4 /* Frameworks */,
+				3B210B4B1C4B9AAC00F471B4 /* Resources */,
+				E3B3A6B29F8364073B8B9890 /* Embed Pods Frameworks */,
+				D86F8DC0AD918B3649E93EDA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstTV;
+			productName = FirstTV;
+			productReference = 3B210B4D1C4B9AAC00F471B4 /* FirstTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B210B621C4B9AAD00F471B4 /* FirstTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B210B7A1C4B9AAD00F471B4 /* Build configuration list for PBXNativeTarget "FirstTVTests" */;
+			buildPhases = (
+				3B210B5F1C4B9AAD00F471B4 /* Sources */,
+				3B210B601C4B9AAD00F471B4 /* Frameworks */,
+				3B210B611C4B9AAD00F471B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B210B651C4B9AAD00F471B4 /* PBXTargetDependency */,
+			);
+			name = FirstTVTests;
+			productName = FirstTVTests;
+			productReference = 3B210B631C4B9AAD00F471B4 /* FirstTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B210B6D1C4B9AAD00F471B4 /* FirstTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B210B7D1C4B9AAD00F471B4 /* Build configuration list for PBXNativeTarget "FirstTVUITests" */;
+			buildPhases = (
+				3B210B6A1C4B9AAD00F471B4 /* Sources */,
+				3B210B6B1C4B9AAD00F471B4 /* Frameworks */,
+				3B210B6C1C4B9AAD00F471B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B210B701C4B9AAD00F471B4 /* PBXTargetDependency */,
+			);
+			name = FirstTVUITests;
+			productName = FirstTVUITests;
+			productReference = 3B210B6E1C4B9AAD00F471B4 /* FirstTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B210B451C4B9AAC00F471B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = PAN;
+				TargetAttributes = {
+					3B210B4C1C4B9AAC00F471B4 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = FRRLKE7G3E;
+					};
+					3B210B621C4B9AAD00F471B4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3B210B4C1C4B9AAC00F471B4;
+					};
+					3B210B6D1C4B9AAD00F471B4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3B210B4C1C4B9AAC00F471B4;
+					};
+				};
+			};
+			buildConfigurationList = 3B210B481C4B9AAC00F471B4 /* Build configuration list for PBXProject "FirstTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B210B441C4B9AAC00F471B4;
+			productRefGroup = 3B210B4E1C4B9AAC00F471B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B210B4C1C4B9AAC00F471B4 /* FirstTV */,
+				3B210B621C4B9AAD00F471B4 /* FirstTVTests */,
+				3B210B6D1C4B9AAD00F471B4 /* FirstTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B210B4B1C4B9AAC00F471B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B210B5D1C4B9AAD00F471B4 /* Assets.xcassets in Resources */,
+				3B210B5B1C4B9AAC00F471B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B210B611C4B9AAD00F471B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B210B6C1C4B9AAD00F471B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F66293AFCCA41FADB474DE0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D86F8DC0AD918B3649E93EDA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstTV/Pods-FirstTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B3A6B29F8364073B8B9890 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirstTV/Pods-FirstTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B210B491C4B9AAC00F471B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B210B581C4B9AAC00F471B4 /* ViewController.m in Sources */,
+				3B210B551C4B9AAC00F471B4 /* AppDelegate.m in Sources */,
+				3B210B521C4B9AAC00F471B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B210B5F1C4B9AAD00F471B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B210B681C4B9AAD00F471B4 /* FirstTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B210B6A1C4B9AAD00F471B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B210B731C4B9AAD00F471B4 /* FirstTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B210B651C4B9AAD00F471B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B210B4C1C4B9AAC00F471B4 /* FirstTV */;
+			targetProxy = 3B210B641C4B9AAD00F471B4 /* PBXContainerItemProxy */;
+		};
+		3B210B701C4B9AAD00F471B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B210B4C1C4B9AAC00F471B4 /* FirstTV */;
+			targetProxy = 3B210B6F1C4B9AAD00F471B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B210B591C4B9AAC00F471B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B210B5A1C4B9AAC00F471B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B210B751C4B9AAD00F471B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3B210B761C4B9AAD00F471B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B210B781C4B9AAD00F471B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEA7A37B1E0A86A03E8860C /* Pods-FirstTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FirstTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PanMac.FirstTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3B210B791C4B9AAD00F471B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0B8C4A3735771215EC0952 /* Pods-FirstTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FirstTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PanMac.FirstTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3B210B7B1C4B9AAD00F471B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirstTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PanMac.FirstTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstTV.app/FirstTV";
+			};
+			name = Debug;
+		};
+		3B210B7C1C4B9AAD00F471B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirstTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PanMac.FirstTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirstTV.app/FirstTV";
+			};
+			name = Release;
+		};
+		3B210B7E1C4B9AAD00F471B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FirstTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PanMac.FirstTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirstTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3B210B7F1C4B9AAD00F471B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FirstTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PanMac.FirstTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirstTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B210B481C4B9AAC00F471B4 /* Build configuration list for PBXProject "FirstTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B210B751C4B9AAD00F471B4 /* Debug */,
+				3B210B761C4B9AAD00F471B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B210B771C4B9AAD00F471B4 /* Build configuration list for PBXNativeTarget "FirstTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B210B781C4B9AAD00F471B4 /* Debug */,
+				3B210B791C4B9AAD00F471B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B210B7A1C4B9AAD00F471B4 /* Build configuration list for PBXNativeTarget "FirstTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B210B7B1C4B9AAD00F471B4 /* Debug */,
+				3B210B7C1C4B9AAD00F471B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B210B7D1C4B9AAD00F471B4 /* Build configuration list for PBXNativeTarget "FirstTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B210B7E1C4B9AAD00F471B4 /* Debug */,
+				3B210B7F1C4B9AAD00F471B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B210B451C4B9AAC00F471B4 /* Project object */;
+}
